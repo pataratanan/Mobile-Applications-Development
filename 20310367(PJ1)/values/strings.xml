@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyPantry</string>
+    <string name="Update_Pantry">Update Pantry</string>
+    <string name="View_Pantry">View All Pantry</string>
+    <string name="Add_Pantry">Add New Pantry</string>
+    <string name="ShoppingList">Shopping List</string>
+    <string name="Update_Shopping">Update Shopping List Item</string>
+    <string name="HomeScreen">MyPantry</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccccff"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <!--text view for our pantry name-->
+        <TextView
+            android:id="@+id/idTVPantryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Pantry Name"
+            android:textColor="#666600" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!--text view for our pantry price-->
+            <TextView
+                android:id="@+id/idTVPantryPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Price"
+                android:textColor="#cc00cc" />
+
+
+            <!--text view for our course duration-->
+            <TextView
+                android:id="@+id/idTVPantryQuantity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Quantity"
+                android:textColor="#336633" />
+
+        </LinearLayout>
+
+        <!--text view for our course description-->
+        <TextView
+            android:id="@+id/idTVPantryLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:text="Location"
+            android:textColor="#cc6666" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
